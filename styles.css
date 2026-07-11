@@ -1,4 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:wght@400;500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
-    width: fit-content;
-    margin: 0 auto;
+	background: #f4ecd8;
+	color: #2d2418;
+	font-family: "EB Garamond", Georgia, serif;
+	line-height: 1.7;
+	max-width: 700px;
+	margin: 60px auto;
+	padding: 40px;
+	border: 8px double #5a4630;
+}
+
+h1 {
+	font-family: "Cinzel", serif;
+	font-size: 3rem;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-bottom: 0.5rem;
+}
+
+h1::after {
+	font-size: 1.5rem;
+	margin-top: 0.5rem;
+	color: #6b5338;
+}
+
+h2 {
+	font-family: "Cinzel", serif;
+	font-size: 1.5rem;
+	margin: 2rem 0 1rem;
+	border-bottom: 1px solid #6b5338;
+	padding-bottom: 0.3rem;
+}
+
+h3 {
+	font-family: "Cinzel", serif;
+	font-size: 1.2rem;
+	margin: 1rem 0 0.5rem;
+	color: #6b5338;
+	text-align: center;
+}
+
+a {
+	color: #5a2f0d;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+a:hover {
+	color: #8b0000;
+	text-decoration: underline;
+}
+
+::selection {
+	background: #c7b58a;
+}
+
+.paragraph {
+	margin-bottom: 1.5rem;
+	font-size: 1.2rem;
+	text-align: center;
 }
